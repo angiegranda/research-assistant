@@ -1,0 +1,16 @@
+*
+!paper.py
+!reader
+!models.py
+!library.py
+!evaluation.py
+!presentation.py
+!literature.py
+!requirements.txt
+!vendor/
+!vendor/*.whl
+!example_papers/
+!example_papers/*.pdf
+!tests/
+!tests/*.py
+!tests/*.json

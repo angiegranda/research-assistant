@@ -1,0 +1,432 @@
+{
+  "suite": "Thesis papers development set v1",
+  "k": 5,
+  "mode": "lexical",
+  "positive_cases": 14,
+  "hit_at_k": 0.9285714285714286,
+  "mrr_at_k": 0.8809523809523809,
+  "negative_cases": 1,
+  "no_match_accuracy": 1,
+  "mean_query_ms": 3.97,
+  "indexed_files": 14,
+  "index_built_at": "2026-11-10T16:53:23.173050+00:00",
+  "source_sha256": {
+    "2004Item-BasedTop-NRecommendationAlgorithms.pdf": "2f4b57e79b3d116efae37a135669f32829fbc14fe5564cbd19374bd94035be22",
+    "2309.08600v3.pdf": "0475237e835c07738a74b2f372f0b7aa33ac047dce6affd49bb750dc4009e661",
+    "Deep+Learning+Ian+Goodfellow.pdf": "880b976d7951de257e9c43b02910fe1b7500cab93be7e9a9883fc80950eff762",
+    "Evaluating_Recommendation_Systems.pdf": "2919fc7ccb14f7a67567acd6c9fcda1156dbb4b8502aa569dede885179bf0cee",
+    "Recommender-Systems-[Netflix].pdf": "546b28e9f080d7545b921ba212e6ca72e99e0a2bda04d0ff2a6f075ca2e092c6",
+    "Recommender_Systems_Handbook.pdf": "3803e5420c07315219a7e8f2e7ba9911f8c5c027deb28251bbbb61e39490e53b",
+    "Reducing the Dimensionality of Data with Neural Networks.pdf": "49f48dcec7dca681066caf5be2575d21c84ef676fb2ca41773ad2619921e01de",
+    "cf.pdf": "b482526952f11de82bd906b51a759d8490304e116d108d0d9be9b24bea3c0aed",
+    "dcg.pdf": "5b40e3557f90f59e50fd37be53e5cbe2aed7fd9efda39212fd2e455cb0804ccb",
+    "download.pdf": "7962b08a72b28ae732a674e1245e010b8d5883b1c08bff9aea4d185961e27fd5",
+    "evaluating-TOIS-20041.pdf": "f897a498b04f953177d7097637dc455fa34285125c654e1e734d1197b1d9e568",
+    "oard-aaaiWS98.pdf": "70c0e63f2cd01b904b443a563bb49e11c0b92e43b49f65a00ccb121c1bb899f4",
+    "recommender-systems-survey-2005.pdf": "2091f36197018c55f1396f3ff048f061e92a880226ac442b44b96b62c9d3ca09",
+    "recsys2010.pdf": "eb7c8663f160a2289bd90af75b77282d42ee49cf418108a75412c4141cdf3342",
+    "schein-sigir-2002-cold-start.pdf": "cbd9a5d12f3cf367c08385df893d4eaad4406dc57f3e1f02b91f86e1ae93acc7"
+  },
+  "cases": [
+    {
+      "id": "implicit-confidence",
+      "query": "Why does implicit feedback indicate confidence rather than preference?",
+      "first_relevant_rank": 1,
+      "no_match_expected": false,
+      "returned": [
+        {
+          "file": "cf.pdf",
+          "page": 2
+        },
+        {
+          "file": "cf.pdf",
+          "page": 1
+        },
+        {
+          "file": "cf.pdf",
+          "page": 8
+        },
+        {
+          "file": "Recommender-Systems-[Netflix].pdf",
+          "page": 5
+        },
+        {
+          "file": "cf.pdf",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "id": "implicit-negative",
+      "query": "Why is missing implicit feedback not negative feedback?",
+      "first_relevant_rank": 1,
+      "no_match_expected": false,
+      "returned": [
+        {
+          "file": "cf.pdf",
+          "page": 2
+        },
+        {
+          "file": "cf.pdf",
+          "page": 1
+        },
+        {
+          "file": "cf.pdf",
+          "page": 4
+        },
+        {
+          "file": "schein-sigir-2002-cold-start.pdf",
+          "page": 4
+        },
+        {
+          "file": "Recommender-Systems-[Netflix].pdf",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "latent-explanations",
+      "query": "How can latent factor models explain recommendations using past actions?",
+      "first_relevant_rank": 1,
+      "no_match_expected": false,
+      "returned": [
+        {
+          "file": "cf.pdf",
+          "page": 5
+        },
+        {
+          "file": "Recommender_Systems_Handbook.pdf",
+          "page": 12
+        },
+        {
+          "file": "cf.pdf",
+          "page": 3
+        },
+        {
+          "file": "schein-sigir-2002-cold-start.pdf",
+          "page": 2
+        },
+        {
+          "file": "recsys2010.pdf",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "sae-superposition",
+      "query": "How do sparse autoencoders address polysemanticity and superposition?",
+      "first_relevant_rank": 1,
+      "no_match_expected": false,
+      "returned": [
+        {
+          "file": "2309.08600v3.pdf",
+          "page": 1
+        },
+        {
+          "file": "2309.08600v3.pdf",
+          "page": 11
+        },
+        {
+          "file": "2309.08600v3.pdf",
+          "page": 2
+        },
+        {
+          "file": "2309.08600v3.pdf",
+          "page": 9
+        },
+        {
+          "file": "2309.08600v3.pdf",
+          "page": 13
+        }
+      ]
+    },
+    {
+      "id": "sae-causal",
+      "query": "How does activation patching identify causally important dictionary features?",
+      "first_relevant_rank": 1,
+      "no_match_expected": false,
+      "returned": [
+        {
+          "file": "2309.08600v3.pdf",
+          "page": 5
+        },
+        {
+          "file": "2309.08600v3.pdf",
+          "page": 6
+        },
+        {
+          "file": "2309.08600v3.pdf",
+          "page": 19
+        },
+        {
+          "file": "2309.08600v3.pdf",
+          "page": 8
+        },
+        {
+          "file": "2309.08600v3.pdf",
+          "page": 13
+        }
+      ]
+    },
+    {
+      "id": "topn-rmse",
+      "query": "Why can lower RMSE fail to improve top-N recommendation accuracy?",
+      "first_relevant_rank": 1,
+      "no_match_expected": false,
+      "returned": [
+        {
+          "file": "recsys2010.pdf",
+          "page": 1
+        },
+        {
+          "file": "recsys2010.pdf",
+          "page": 2
+        },
+        {
+          "file": "recsys2010.pdf",
+          "page": 8
+        },
+        {
+          "file": "Recommender-Systems-[Netflix].pdf",
+          "page": 7
+        },
+        {
+          "file": "recsys2010.pdf",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "cold-start",
+      "query": "How can content information help recommend cold-start items that nobody has rated?",
+      "first_relevant_rank": 1,
+      "no_match_expected": false,
+      "returned": [
+        {
+          "file": "schein-sigir-2002-cold-start.pdf",
+          "page": 1
+        },
+        {
+          "file": "evaluating-TOIS-20041.pdf",
+          "page": 37
+        },
+        {
+          "file": "Evaluating_Recommendation_Systems.pdf",
+          "page": 25
+        },
+        {
+          "file": "schein-sigir-2002-cold-start.pdf",
+          "page": 7
+        },
+        {
+          "file": "schein-sigir-2002-cold-start.pdf",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "graded-relevance",
+      "query": "How does cumulative gain use graded relevance and discount late retrieved documents?",
+      "first_relevant_rank": 1,
+      "no_match_expected": false,
+      "returned": [
+        {
+          "file": "dcg.pdf",
+          "page": 1
+        },
+        {
+          "file": "dcg.pdf",
+          "page": 2
+        },
+        {
+          "file": "dcg.pdf",
+          "page": 8
+        },
+        {
+          "file": "dcg.pdf",
+          "page": 7
+        },
+        {
+          "file": "dcg.pdf",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "id": "online-evaluation",
+      "query": "Why use online evaluation with real users and real tasks?",
+      "first_relevant_rank": 1,
+      "no_match_expected": false,
+      "returned": [
+        {
+          "file": "Evaluating_Recommendation_Systems.pdf",
+          "page": 10
+        },
+        {
+          "file": "Evaluating_Recommendation_Systems.pdf",
+          "page": 3
+        },
+        {
+          "file": "Evaluating_Recommendation_Systems.pdf",
+          "page": 33
+        },
+        {
+          "file": "schein-sigir-2002-cold-start.pdf",
+          "page": 7
+        },
+        {
+          "file": "Evaluating_Recommendation_Systems.pdf",
+          "page": 19
+        }
+      ]
+    },
+    {
+      "id": "multiple-tests",
+      "query": "Why can tuning to the test set invalidate significance testing?",
+      "first_relevant_rank": 1,
+      "no_match_expected": false,
+      "returned": [
+        {
+          "file": "Evaluating_Recommendation_Systems.pdf",
+          "page": 13
+        },
+        {
+          "file": "Evaluating_Recommendation_Systems.pdf",
+          "page": 11
+        },
+        {
+          "file": "recsys2010.pdf",
+          "page": 5
+        },
+        {
+          "file": "Evaluating_Recommendation_Systems.pdf",
+          "page": 5
+        },
+        {
+          "file": "Evaluating_Recommendation_Systems.pdf",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "id": "no-lexical-match",
+      "query": "xylophonexyz quasarwidget",
+      "first_relevant_rank": null,
+      "no_match_expected": true,
+      "returned": []
+    },
+    {
+      "id": "paraphrase-missing-view",
+      "query": "Does never watching a show mean a viewer dislikes it?",
+      "first_relevant_rank": 1,
+      "no_match_expected": false,
+      "returned": [
+        {
+          "file": "cf.pdf",
+          "page": 2
+        },
+        {
+          "file": "cf.pdf",
+          "page": 6
+        },
+        {
+          "file": "Evaluating_Recommendation_Systems.pdf",
+          "page": 16
+        },
+        {
+          "file": "Evaluating_Recommendation_Systems.pdf",
+          "page": 28
+        },
+        {
+          "file": "cf.pdf",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "id": "paraphrase-neuron",
+      "query": "Can a neuron respond to several unrelated concepts?",
+      "first_relevant_rank": 1,
+      "no_match_expected": false,
+      "returned": [
+        {
+          "file": "2309.08600v3.pdf",
+          "page": 1
+        },
+        {
+          "file": "2309.08600v3.pdf",
+          "page": 6
+        },
+        {
+          "file": "Recommender_Systems_Handbook.pdf",
+          "page": 3
+        },
+        {
+          "file": "2309.08600v3.pdf",
+          "page": 2
+        },
+        {
+          "file": "2309.08600v3.pdf",
+          "page": 8
+        }
+      ]
+    },
+    {
+      "id": "paraphrase-experiments",
+      "query": "Can choosing the best algorithm after many experiments give a misleading result?",
+      "first_relevant_rank": null,
+      "no_match_expected": false,
+      "returned": [
+        {
+          "file": "Evaluating_Recommendation_Systems.pdf",
+          "page": 36
+        },
+        {
+          "file": "Evaluating_Recommendation_Systems.pdf",
+          "page": 11
+        },
+        {
+          "file": "Evaluating_Recommendation_Systems.pdf",
+          "page": 7
+        },
+        {
+          "file": "evaluating-TOIS-20041.pdf",
+          "page": 34
+        },
+        {
+          "file": "Evaluating_Recommendation_Systems.pdf",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "paraphrase-stars",
+      "query": "Does doing better at predicting stars mean the best suggestions are better?",
+      "first_relevant_rank": 3,
+      "no_match_expected": false,
+      "returned": [
+        {
+          "file": "evaluating-TOIS-20041.pdf",
+          "page": 40
+        },
+        {
+          "file": "Evaluating_Recommendation_Systems.pdf",
+          "page": 15
+        },
+        {
+          "file": "recsys2010.pdf",
+          "page": 1
+        },
+        {
+          "file": "evaluating-TOIS-20041.pdf",
+          "page": 17
+        },
+        {
+          "file": "recsys2010.pdf",
+          "page": 5
+        }
+      ]
+    }
+  ],
+  "limitations": "Small curated development set; page hits do not establish excerpt relevance, completeness, or scientific truth. Negative cases only test lexical no-match behavior."
+}

@@ -1,0 +1,167 @@
+{
+  "name": "Thesis papers development set v1",
+  "labeling": "Source pages inspected independently; three pages also visually checked. These are known relevant pages, not exhaustive relevance judgments. Labels are development data, not a held-out test.",
+  "source_sha256": {
+    "cf.pdf": "b482526952f11de82bd906b51a759d8490304e116d108d0d9be9b24bea3c0aed",
+    "2309.08600v3.pdf": "0475237e835c07738a74b2f372f0b7aa33ac047dce6affd49bb750dc4009e661",
+    "recsys2010.pdf": "eb7c8663f160a2289bd90af75b77282d42ee49cf418108a75412c4141cdf3342",
+    "schein-sigir-2002-cold-start.pdf": "cbd9a5d12f3cf367c08385df893d4eaad4406dc57f3e1f02b91f86e1ae93acc7",
+    "dcg.pdf": "5b40e3557f90f59e50fd37be53e5cbe2aed7fd9efda39212fd2e455cb0804ccb",
+    "Evaluating_Recommendation_Systems.pdf": "2919fc7ccb14f7a67567acd6c9fcda1156dbb4b8502aa569dede885179bf0cee"
+  },
+  "cases": [
+    {
+      "id": "implicit-confidence",
+      "query": "Why does implicit feedback indicate confidence rather than preference?",
+      "relevant": [
+        {
+          "file": "cf.pdf",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "implicit-negative",
+      "query": "Why is missing implicit feedback not negative feedback?",
+      "relevant": [
+        {
+          "file": "cf.pdf",
+          "page": 2
+        },
+        {
+          "file": "cf.pdf",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": "latent-explanations",
+      "query": "How can latent factor models explain recommendations using past actions?",
+      "relevant": [
+        {
+          "file": "cf.pdf",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "sae-superposition",
+      "query": "How do sparse autoencoders address polysemanticity and superposition?",
+      "relevant": [
+        {
+          "file": "2309.08600v3.pdf",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "sae-causal",
+      "query": "How does activation patching identify causally important dictionary features?",
+      "relevant": [
+        {
+          "file": "2309.08600v3.pdf",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": "topn-rmse",
+      "query": "Why can lower RMSE fail to improve top-N recommendation accuracy?",
+      "relevant": [
+        {
+          "file": "recsys2010.pdf",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "cold-start",
+      "query": "How can content information help recommend cold-start items that nobody has rated?",
+      "relevant": [
+        {
+          "file": "schein-sigir-2002-cold-start.pdf",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "graded-relevance",
+      "query": "How does cumulative gain use graded relevance and discount late retrieved documents?",
+      "relevant": [
+        {
+          "file": "dcg.pdf",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "online-evaluation",
+      "query": "Why use online evaluation with real users and real tasks?",
+      "relevant": [
+        {
+          "file": "Evaluating_Recommendation_Systems.pdf",
+          "page": 10
+        },
+        {
+          "file": "Evaluating_Recommendation_Systems.pdf",
+          "page": 11
+        }
+      ]
+    },
+    {
+      "id": "multiple-tests",
+      "query": "Why can tuning to the test set invalidate significance testing?",
+      "relevant": [
+        {
+          "file": "Evaluating_Recommendation_Systems.pdf",
+          "page": 13
+        }
+      ]
+    },
+    {
+      "id": "no-lexical-match",
+      "query": "xylophonexyz quasarwidget",
+      "relevant": []
+    },
+    {
+      "id": "paraphrase-missing-view",
+      "query": "Does never watching a show mean a viewer dislikes it?",
+      "relevant": [
+        {
+          "file": "cf.pdf",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": "paraphrase-neuron",
+      "query": "Can a neuron respond to several unrelated concepts?",
+      "relevant": [
+        {
+          "file": "2309.08600v3.pdf",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": "paraphrase-experiments",
+      "query": "Can choosing the best algorithm after many experiments give a misleading result?",
+      "relevant": [
+        {
+          "file": "Evaluating_Recommendation_Systems.pdf",
+          "page": 13
+        }
+      ]
+    },
+    {
+      "id": "paraphrase-stars",
+      "query": "Does doing better at predicting stars mean the best suggestions are better?",
+      "relevant": [
+        {
+          "file": "recsys2010.pdf",
+          "page": 1
+        }
+      ]
+    }
+  ]
+}
