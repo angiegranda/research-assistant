@@ -27,7 +27,7 @@ From the project root, using Python 3.11 or newer with SQLite FTS5:
 ```sh
 cd assistant
 ./reader --help
-./reader index /[PAPERS PATH/]
+./reader index [PAPERS PATH]
 ./reader search "Usage of sparse autoencoders for recommendation systems"
 ./reader read cf.pdf 2
 ```
